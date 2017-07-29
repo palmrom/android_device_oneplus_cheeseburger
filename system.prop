@@ -185,3 +185,7 @@ sys.usb.rmnet.func.name=gsi
 
 # Wi-Fi
 wifi.interface=wlan0
+
+#Optimized LineageOS
+ro.config.vc_call_vol_steps=14
+ro.config.media_vol_steps=30
