@@ -186,7 +186,7 @@ sys.usb.rmnet.func.name=gsi
 # Wi-Fi
 wifi.interface=wlan0
 
-#Optimized LineageOS
+#Palm project
 ##############
 # Volume steps
 ro.config.vc_call_vol_steps=14
@@ -195,3 +195,10 @@ ro.config.media_vol_steps=30
 ro.opa.eligible_device=true
 # Call ring delay
 ro.telephony.call_ring.delay=0
+#dexopts
+ro.kernel.android.checkjni=0
+dalvik.vm.dex2oat-swap=false
+dalvik.vm.execution-mode=int:fast
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.image-dex2oat-filter=interpret-only
+
