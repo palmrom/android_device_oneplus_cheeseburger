@@ -141,6 +141,24 @@ PRODUCT_COPY_FILES += \
     $(TOPDIR)frameworks/av/services/audiopolicy/config/default_volume_tables.xml:/system/etc/default_volume_tables.xml \
     $(TOPDIR)frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:/system/etc/r_submix_audio_policy_configuration.xml \
     $(TOPDIR)frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:/system/etc/usb_audio_policy_configuration.xml
+    
+# Prebuilt
+PRODUCT_PACKAGES += \
+    OnePlusCamera \
+    OnePlusCameraService \
+    OnePlusGallery \
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    $(LOCAL_PATH)/prebuilt/lib/libfilter-sdk.so:system/lib/libfilter-sdk.so \
+    $(LOCAL_PATH)/prebuilt/lib/libopbaselib.so:system/lib/libopbaselib.so \
+    $(LOCAL_PATH)/prebuilt/lib/libopcamera.so:system/lib/libopcamera.so \
+    $(LOCAL_PATH)/prebuilt/lib/libopcameralib.so:system/lib/libopcameralib.so \
+    $(LOCAL_PATH)/prebuilt/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
+    $(LOCAL_PATH)/prebuilt/lib64/libfilter-sdk.so:system/lib64/libfilter-sdk.so \
+    $(LOCAL_PATH)/prebuilt/lib64/libopbaselib.so:system/lib64/libopbaselib.so \
+    $(LOCAL_PATH)/prebuilt/lib64/libopcamera.so:system/lib64/libopcamera.so \
+    $(LOCAL_PATH)/prebuilt/lib64/libopcameralib.so:system/lib64/libopcameralib.so    
 
 # ANT+
 PRODUCT_PACKAGES += \
