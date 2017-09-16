@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2017 The LineageOS Open Source Project
+# Copyright (C) 2017 The Liquid Remix Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,7 +25,7 @@
 
 $(call inherit-product, vendor/oneplus/cheeseburger/cheeseburger-vendor.mk)
 
-# Overlays - no extra ones needed, common handles all we need
+# Overlays
 #DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Device uses high-density artwork where available
