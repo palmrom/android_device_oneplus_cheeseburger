@@ -466,4 +466,7 @@
     
     <!-- Night Display -->
     <bool name="config_nightDisplayAvailable">true</bool>
+    
+    <!-- sRGB sysfs path -->
+    <string name="config_srgb_path">/sys/devices/virtual/graphics/fb0/SRGB</string>
 </resources>
