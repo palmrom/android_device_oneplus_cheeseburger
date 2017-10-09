@@ -454,4 +454,7 @@
     
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
+    
+     <!-- Disable LiveDisplay by default -->
+    <integer name="config_defaultLiveDisplayMode">0</integer>
 </resources>
