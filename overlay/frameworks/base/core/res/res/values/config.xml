@@ -455,15 +455,6 @@
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
     
-     <!-- Disable LiveDisplay by default -->
-    <integer name="config_defaultLiveDisplayMode">0</integer>
-    
-    <!-- Doze: pulse parameter - how long does it take to fade in after an intent? -->
-    <integer name="doze_pulse_duration_in_intent">0</integer>
-
-    <!-- Doze: pulse parameter - delay to wait for the screen to wake up after an intent -->
-    <integer name="doze_pulse_delay_in_intent">0</integer>
-    
     <!-- Night Display -->
     <bool name="config_nightDisplayAvailable">true</bool>
     
