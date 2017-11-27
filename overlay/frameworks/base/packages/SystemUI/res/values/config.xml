@@ -32,9 +32,6 @@
 
     <!-- Doze: pulse parameter - delay to wait for the screen to wake up after an intent -->
     <integer name="doze_pulse_delay_in_intent">0</integer>
-    
-    <!-- Doze: pulse parameter - how long does it take to fade in after an intent? -->
-    <integer name="doze_pulse_duration_in_intent">0</integer>
 
     <!-- Control whether status bar should distinguish HSPA data icon form UMTS
     data icon on devices -->
