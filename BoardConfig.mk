@@ -22,6 +22,8 @@
 # definition file).
 #
 
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Inherit from oneplus msm8998-common
 -include device/oneplus/msm8998-common/BoardConfigCommon.mk
 
