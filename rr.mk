@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
+# Inherit palm stuff.
+$(call inherit-product, vendor/palm/config/common.mk)
+
 PRODUCT_NAME := rr_cheeseburger
 PRODUCT_DEVICE := cheeseburger
 PRODUCT_MANUFACTURER := OnePlus
